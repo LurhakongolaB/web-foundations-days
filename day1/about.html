@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About QuickNotes</title>
+</head>
+<body>
+    <header></header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main></main>
+        <h2>About QuickNotes</h2>
+        <p>Welcome to QuickNotes! This is a simple note-taking app. <br>
+            QuickNotes allows you to create, edit, and delete notes easily. <br>
+
+        </p>
+
+
+        <section>
+            <h3>How to use QuickNotes</h3>
+            <p>Here are some tips to get the most out of QuickNotes:</p>
+            <ul>
+                <li>Create new notes by clicking the "New Note" button.</li>
+                <li>Edit existing notes by clicking on them.</li>
+                <li>Delete notes by clicking the trash icon.</li>
+            </ul>
+        </section>
+        <section>
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>New Note</td>
+                    <td>Create a new note by clicking the "New Note" button.</td>
+                </tr>
+                <tr>
+                    <td>Edit Note</td>
+                    <td>Edit existing notes by clicking on them.</td>
+                </tr>
+            </table>
+        </section>
+
+       <section>
+        <h3>send feedback</h3>
+        <p>We'd love to hear your thoughts! Please feel free to fill out our feedback form below</p>
+        <form action="submit_feedback.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="feedback">Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Submit Feedback">
+       </section>
+    </main>
+</body>
+</html>
